@@ -4494,7 +4494,7 @@ task.spawn(function()
 	pcall(function()
 
 		if queue_on_teleport then
-			local BenngxcHub = 'loadstring(game:HttpGet(“https://raw.githubusercontent.com/ngxc42/BenngxcHub/main/ultraskidbybenngXc”))();'
+			local BenngxcHub = 'loadstring:(game:HttpGet("https:raw.githubusercontent.com/ngxc42/ultraskidbybenngxc/main/BenngxcHub”))();'
 			queue_on_teleport(BenngxcHub)
 		end
 
