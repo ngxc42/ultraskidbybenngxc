@@ -44,8 +44,8 @@ local ResultUI = player.PlayerGui['ResultsUI']
 
 
 --------------- Files
-makefolder("Ultra Hub")
-makefolder('Ultra Hub\\Anime Adventures')
+makefolder("BenngxcHub")
+makefolder('BenngxcHub\\Anime Adventures')
 
 
 local DefaultFiles = {
@@ -556,7 +556,7 @@ DiscordLabel.Font = Enum.Font.GothamBlack
 DiscordLabel.TextColor3 = Color3.fromRGB(255,255,255)
 DiscordLabel.TextScaled = true
 DiscordLabel.TextXAlignment = Enum.TextXAlignment.Left
-DiscordLabel.Text = "Discord: zMc8bTmQXh"
+DiscordLabel.Text = "Discord: xwvwp6zp"
 
 task.spawn(function()
 	while true do
@@ -4453,7 +4453,7 @@ local function webhook ()
 				['color'] = 11513855,
 				["description"] = levelAndUser,
 				['footer'] = {
-					['text'] = string.format("// Made by Ultra Hub (%s)", os.date("%X")), 
+					['text'] = string.format("// Made by Benngxc Hub (%s)", os.date("%X")), 
 				},
 				['fields'] = {
 					{
@@ -4494,8 +4494,8 @@ task.spawn(function()
 	pcall(function()
 
 		if queue_on_teleport then
-			local UltraHubSCRIPT = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ultrahub7/Ultra-Hub/main/Main.lua"))()'
-			queue_on_teleport(UltraHubSCRIPT)
+			local BenngxcHub = 'loadstring(game:HttpGet(“https://raw.githubusercontent.com/ngxc42/BenngxcHub/main/ultraskidbybenngXc”))();'
+			queue_on_teleport(BenngxcHub)
 		end
 
 	end)	
